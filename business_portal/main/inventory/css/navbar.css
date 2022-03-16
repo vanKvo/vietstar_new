@@ -1,0 +1,45 @@
+.navbar-global {
+  background-color: #0d6efd;
+}
+
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 0px;
+  /*margin-left: -20px;*/
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 0 0px 0 #ffffff;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0px 0 #ffffff;
+  font-size: 16px;
+}
+
+.sidebar-nav {
+  padding: 50px 0px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.well li {
+  line-height: 20px;
+  list-style: none;
+}
+.nav-user li {
+  list-style: none;
+}

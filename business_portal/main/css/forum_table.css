@@ -1,0 +1,42 @@
+/** Style the table in topic list */
+#forum-table {
+  width: 100%;
+  display: table;
+  margin-top: 20px;
+}
+
+#forum-table-caption {
+  display: table-caption;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#forum-table-header {
+  display: table-header-group;
+  background-color: #e1f5fe;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.forum-table-header-cell {
+  display: table-cell;
+  padding: 10px;
+  text-align: justify;
+  /*border-bottom: 1px solid black;*/
+  max-width: 25%;
+}
+
+#forum-table-body {
+  display: table-row-group;
+}
+
+/* Create Table Rows */
+.forum-table-row {
+  display: table-row;
+}
+
+/* Create Table Cells in the Rows */
+.forum-table-body-cell {
+  display: table-cell;
+}
